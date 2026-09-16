@@ -104,12 +104,14 @@ p { margin: 0 0 1rem; }
   max-width: 340px;
   aspect-ratio: 4 / 5;
   overflow: hidden;
-  background: var(--slate);
 }
 .hero__photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 15%;
+  /* The headshot is shot on pure white; multiply seats it on the bone page. */
+  mix-blend-mode: multiply;
 }
 .hero__name {
   margin: 0 0 1.25rem;
