@@ -263,6 +263,20 @@ p { margin: 0 0 1rem; }
   }
 }
 
+/* Pull line: the one sentence the reader should repeat later ----- */
+
+.section__body .pull {
+  max-width: 24ch;
+  margin: 2rem 0 2.25rem;
+  padding-left: 1.1rem;
+  border-left: 4px solid var(--accent);
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(1.7rem, 1.2rem + 2.2vw, 2.75rem);
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+}
+
 /* Experience ------------------------------------------------- */
 
 .roles {
