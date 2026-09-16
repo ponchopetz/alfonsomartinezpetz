@@ -263,26 +263,6 @@ p { margin: 0 0 1rem; }
   }
 }
 
-/* Placeholder copy block (remove class when real copy is in) */
-
-.placeholder {
-  position: relative;
-  padding: 1.25rem 1.5rem;
-  border: 2px dashed var(--accent);
-}
-.placeholder::before {
-  content: attr(data-note);
-  display: block;
-  margin-bottom: 0.9rem;
-  font-family: var(--display);
-  font-weight: 700;
-  font-size: 0.8rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--accent);
-}
-.placeholder p:last-child { margin-bottom: 0; }
-
 /* Experience ------------------------------------------------- */
 
 .roles {
